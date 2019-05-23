@@ -8,7 +8,7 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: auto 250px;
-  grid-template-rows: 70% 30%;
+  grid-template-rows: 60% 40%;
   grid-template-areas:
     "sandbox comp-list"
     "sandbox-form comp-list"
@@ -17,6 +17,8 @@ body {
 .work-area {
   border-style: solid;
   border-color: red;
+  overflow-y: scroll;
+  overflow-x: scroll;
 }
 
 .sandbox {
@@ -25,14 +27,14 @@ body {
   width: 100%;
   border-style: solid;
   border-color: gray;
+
+  padding: auto;
 }
 
 .sandbox-form {
   grid-area: sandbox-form;
   height: 100%;
   width: 100%;
-  border-style: solid;
-  border-color: green;
 }
 
 .comp-list {
@@ -43,6 +45,22 @@ body {
   overflow-y: scroll;
   /* top: 0;
   bottom: 0; */
-  border-style: solid;
-  border-color: red;
+}
+
+.comp-item {
+  position: relative;
+}
+
+.form-row {
+  margin-bottom: 5px;
+}
+
+.button-row {
+  padding: 0 10px;
+}
+
+.cust-del {
+  position: absolute;
+  right: 15px;
+  bottom: 8px;
 }

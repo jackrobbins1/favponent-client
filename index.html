@@ -16,47 +16,58 @@
       </div>
 
       <div class="sandbox-form">
-
+        <div class="form-row">
+          <div class="col">
+            <input id="input-comp-name" type="text" class="form-control" placeholder="Component name">
+          </div>
+          <div class="col-3">
+            <input id="input-comp-tag" type="text" class="form-control" placeholder="Tag">
+          </div>
+          <div class="col">
+            <input id="input-comp-category" type="text" class="form-control" placeholder="Category">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <textarea id="input-comp-class" class="form-control" id="nothing" rows="2" placeholder="Class (bootstrap)"></textarea>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <textarea id="input-comp-attributes" class="form-control" id="nothing" rows="1" placeholder="Attributes"></textarea>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <textarea id="input-comp-style" class="form-control" id="nothing" rows="3" placeholder="Styling"></textarea>
+          </div>
+        </div>
+        <div class="row button-row">
+          <div class="col">
+            <button type="submit" class="btn btn-success btn-block">New Component</button>
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-secondary btn-block">Render</button>
+          </div>
+          <div class="col">
+            <button id="save-btn" type="submit" class="btn btn-primary btn-block">Save</button>
+          </div>
+        </div>
       </div>
 
       <!-- Left side main container END -->
 
       <!-- Right side scrollable area -->
       <div class="comp-list">
-        <div class="list-group">
+        <div id="comp-ul" class="list-group">
           <div class="list-group-item list-group-item-action active">
             My Favorite Components
           </div>
-          <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-          <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-          <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-          <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-          <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-          <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-          <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-          <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-          <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-          <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-          <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-          <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-          <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-          <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-          <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-          <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-          <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-          <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-          <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-          <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-          <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-          <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-          <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-          <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-
         </div>
       </div>
       <!-- Right side scroll area end -->
     </div>
-
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
